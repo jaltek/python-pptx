@@ -39,6 +39,9 @@ class MSO_AUTO_SHAPE_TYPE(XmlEnumeration):
 
     __members__ = (
         XmlMappedEnumMember(
+            'SLIDE_IMAGE', 18, 'sldImg', 'Slide Image'
+        ),
+        XmlMappedEnumMember(
             'ACTION_BUTTON_BACK_OR_PREVIOUS', 129,
             'actionButtonBackPrevious', 'Back or Previous button. Supports '
             'mouse-click and mouse-over actions'
