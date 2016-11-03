@@ -856,6 +856,9 @@ class PP_PLACEHOLDER_TYPE(XmlEnumeration):
 
     __members__ = (
         XmlMappedEnumMember(
+            'SLIDE_IMAGE', 18, 'sldImg', 'Slide Image'
+        ),
+        XmlMappedEnumMember(
             'BITMAP', 9, 'clipArt', 'Clip art placeholder'
         ),
         XmlMappedEnumMember(
